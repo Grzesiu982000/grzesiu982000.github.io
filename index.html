@@ -13,16 +13,54 @@
 
     html, body
     {
-        margin: 0px;
-        padding: 0px;
+        margin: 0;
+        padding: 0;
     }
 
     body
     {
         display: flex;
-        align-content: center;
-        align-items: center;
+        justify-content: center;
+        background: rgb(106, 186, 233);
     }
+
+    ul
+    {
+        list-style: none;
+        padding: 0;
+    }
+
+    li
+    {
+        margin: 20px;
+    }
+
+    a, a:hover, a:active, a:visited
+    {
+        text-decoration: unset;
+        color: unset;
+    }
+
+
+    a
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 100px;
+        background: rgb(112, 43, 43);
+        color: white !important;
+        box-shadow: 10px 10px 0 0 #4e1e1e;
+    }
+
+    a:hover
+    {
+        box-shadow: unset;
+        transform: translate3d(10px,10px,0);
+    }
+
+
 
     </style>
 </head>
